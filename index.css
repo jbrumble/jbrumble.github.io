@@ -1,0 +1,90 @@
+/* Universal Style*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+    margin: 5px 20%;
+    position: absolute;
+    top: 40px;
+}
+
+main {
+    position:absolute;
+    top: 30px;
+}
+
+.nav-bar {
+    background-color: rgba(112, 191, 154, 0.893);
+    margin: 5px 0px 10px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 20%
+    
+}
+
+.nav-bar td{
+    padding: 20px;
+    border: 4px solid white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-bar td:hover{
+    background-color: rgb(206, 243, 237);
+}
+
+.nav-bar a {
+    color: black
+}
+
+
+/* Index Style*/
+.index-banner {
+    position:relative;
+    top: 10px;
+    background-image: url(../media/beaver-lake.png);
+    height: 270px;
+    width: 750px;
+    text-align: center;   
+}
+
+.index-banner a {
+    font-size: 50px;
+    position:relative;
+    top:45px;
+    color:rgb(223, 232, 240);
+}
+
+   
+h1 {
+    color: SeaGreen;
+}
+ 
+p, 
+li {
+    font-size: 18px;
+}
+
+.fish-list {
+    position:relative;
+    left: 30px;
+}
+
+footer {
+    position: absolute;
+    top: 700px;
+    background-color: aquamarine;
+    width:750px;
+}
+
+.opening-statement{
+    font-family: 'Times New Roman';
+    font-size: larger;
+    
+}
